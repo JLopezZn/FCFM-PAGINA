@@ -1,64 +1,19 @@
-*{
-    margin:0;
-    padding:0;
-
+#logo-2{
+ width: 30%;
+ height:10%;   
 }
 
+.logos{
+    min-width:629px;
+    }
 
-#logo-2 {
-
-width: 33% ;
-height: 20%;
-margin-left: 6%;
-margin-right: 6%;
-margin-top: 2%;
+.caja-img{
+    display: inline;
+    margin-left:6%;
 }
 
-#logo-1{
-margin-left: 15%; 
+.container
+
+div a{
+ color: white;   
 }
-
-#logos{
-    display: inline-block;
-  
-}
-
-#barra-navegacion{
-  padding-bottom: 0% ;
- padding-left:14%;
- padding-top:3%;
-
-}
-
-#barra-navegacion ul li{
-
-    display: inline-block;
-    padding: 2% 1.5%;
-}
-
-#barra-navegacion ul li a{
-
-    color: gray;
-    text-decoration: none;
-    display: block;
-    padding: 0%;
-    font-size: 84%;
-    
-}
-
-
-
-
-.imagen-slide{
-    border: 10px solid red;
-  height:140%;
-  width: 800%;  
-  
-}
-
-.container{
-    
-    margin-left:13%;
-
-}
-

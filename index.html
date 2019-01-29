@@ -16,36 +16,59 @@
 </head>
 
 <body>
- <header>
-<div id="logos"> 
-<img id="logo-1" src="imagenes/uanlLogo.png" alt="">
-<img id="logo-2" src="imagenes/header.png" alt="">
-<img id="logo-3" src="imagenes/fcfmLogo_0.png" alt="">
-</div>  
+ 
+<header>
+
+    <div class="logos" align="center">
+   <div class="caja-img"><img id="logo-1" src="imagenes/uanlLogo.png" alt=""></div>
+   <div class="caja-img"><img id="logo-2" src="imagenes/header.png" alt=""></div>
+   <div class="caja-img"><img id="logo-3" src="imagenes/fcfmLogo_0.png" alt=""></div>
+   </div>
 
 
-<nav id="barra-navegacion">
- <ul>
- <li><a href="">INICIO</a></li>
- <li><a href="">FACULTAD</a></li>
- <li><a href="">LICENCIATURAS</a></li>
- <li><a href="">ALUMNOS</a></li>
- <li><a href="">PROFESORES</a></li>
- <li><a href="">EXAFCFM</a></li>
- <li><a href="">POSGRADO</a></li>
+<div class="container">
 
- </ul>
+ 
+    <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">INICIO</a>
+                <a class="nav-item nav-link" href="#">Facultad</a>
+                <a class="nav-item nav-link" href="#">Licenciaturas</a>
+                <a class="nav-item nav-link " href="#">Alumnos</a>
+                <a class="nav-item nav-link " href="#">Profesores</a>
+                <a class="nav-item nav-link " href="#">EXAFCFM</a>
+                <a class="nav-item nav-link " href="#">Posgrado</a>
+              </div>
+             
+              <form class="form-inline my-2 my-lg-0" align="right">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                  </form>
+            </div>
 
-</nav>
- </header>   
+            
+    </nav>
 
-<structure id="caja-banner">
+</div>
+
+
+</header>
+
+
+
+
+
 
 <!-- slider -->
 
-<div class="container">
+<div class="container" align="center" >
 <br>
-<div class="col-md-10">
+<div class="col-md-10" >
 
     <!--carousel -->
 
@@ -101,7 +124,7 @@
 </div>
 <!--termina slider-->
  
-</structure>
+
 
 
  <script src="js/jquery.js"></script>   
