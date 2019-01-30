@@ -1,19 +1,19 @@
+*{
+    padding:0;
+}
+
 #logo-2{
- width: 30%;
- height:10%;   
+ height: 10%;   
 }
 
-.logos{
-    min-width:629px;
-    }
+#slider{
+ margin-top: 3%;  
 
-.caja-img{
-    display: inline;
-    margin-left:6%;
+
+
+}
+#encabezado{
+    background-color: white;
+
 }
 
-.container
-
-div a{
- color: white;   
-}
